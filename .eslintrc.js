@@ -1,7 +1,8 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
+    "vue/setup-compiler-macros": true, // <script setup>記法を有効にする為に追加
   },
   'extends': [
     'plugin:vue/vue3-essential',
